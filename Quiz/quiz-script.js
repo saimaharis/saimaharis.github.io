@@ -41,14 +41,14 @@ function loadNextQuestion () {
 		resultCont.textContent = 'Your Score: ' + score;
 		if(score==0)
 		{
-			resultCont.textContent = 'Your Score: ' + score +  '\n + <br> Try Again Better Luck Next Time';
+			resultCont.textContent = 'Your Score: ' + score +  '\n' + '  ' +' Try Again Better Luck Next Time';
 		}
 		else if(score<50)
 		{
-		resultCont.textContent = 'Your Score: ' + score+  '\n + <br> Good,Keep it Up ';
+		resultCont.textContent = 'Your Score: ' + score+  '\n' + '  ' +' Good,Keep it Up ';
 		}
 		else{
-			resultCont.textContent='Your Score: ' + score+   '\n' + ' ' +' Well Done , You have done a fantastic Job!';
+			resultCont.textContent='Your Score: ' + score+   '\n' + '  ' +' Well Done , You have done a fantastic Job!';
 		}
 		return;
 	}
